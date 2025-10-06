@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تبدیل / Exchange</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1 class="brand">صرافی استانبول</h1>
+<button id="langToggle">English</button>
+<nav>
+<a href="index.html">خانه / Home</a>
+<a href="rates.html">نرخ‌ها / Rates</a>
+<a href="exchange.html">تبدیل / Exchange</a>
+<a href="contact.html">تماس / Contact</a>
+</nav>
+</header>
+<main>
+<h2 data-fa="محاسبه و پیش‌نمایش سفارش" data-en="Order Preview & Calculation">محاسبه و پیش‌نمایش سفارش</h2>
+<div>
+<label data-fa="از ارز" data-en="From Currency">از ارز</label>
+<select id="fromCurrency">
+<option value="USD">دلار (USD)</option>
+<option value="EUR">یورو (EUR)</option>
+<option value="TRY">لیر ترکیه (TRY)</option>
+</select>
+<label data-fa="به ارز" data-en="To Currency">به ارز</label>
+<select id="toCurrency">
+<option value="TRY">لیر ترکیه (TRY)</option>
+<option value="IRR">تومان ایران (IRR)</option>
+<option value="EUR">یورو (EUR)</option>
+</select>
+<label data-fa="مقدار" data-en="Amount">مقدار</label>
+<input id="amountInput" type="number" placeholder="مقدار را وارد کنید / Enter amount">
+<div id="previewBox" style="display:none;"></div>
+</div>
+</main>
+<footer>
+<p>© 2025 صرافی استانبول / Istanbul Exchange</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تماس / Contact</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1 class="brand">صرافی استانبول</h1>
+<button id="langToggle">English</button>
+<nav>
+<a href="index.html">خانه / Home</a>
+<a href="rates.html">نرخ‌ها / Rates</a>
+<a href="exchange.html">تبدیل / Exchange</a>
+<a href="contact.html">تماس / Contact</a>
+</nav>
+</header>
+<main>
+<h2 data-fa="تماس با ما" data-en="Contact Us">تماس با ما</h2>
+<form id="contactForm">
+<label data-fa="نام" data-en="Name">نام</label>
+<input id="c_name" required>
+<label data-fa="ایمیل یا تلفن" data-en="Email or Phone">ایمیل یا تلفن</label>
+<input id="c_contact" required>
+<label data-fa="پیام" data-en="Message">پیام</label>
+<textarea id="c_message" rows="4" required></textarea>
+<button type="submit" class="btn" data-fa="ارسال" data-en="Send">ارسال</button>
+</form>
+<div id="contactResp" style="display:none;"></div>
+</main>
+<footer>
+<p>© 2025 صرافی استانبول / Istanbul Exchange</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
